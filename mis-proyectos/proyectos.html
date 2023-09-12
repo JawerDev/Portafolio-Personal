@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="https://kit.fontawesome.com/7f85c94f0a.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <title>Portafolio</title>
+</head>
+<body>
+        <!-- SECCION I N I C I O -->
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>/JC/</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="/index.html" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="/index.html" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#servicios" onclick="seleccionar(this)">PROYECTOS</a></li>
+                                <li><a href="/index.html" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+                        <!-- Icono del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+    
+    
+                        <div class="redes">
+                            <a href="#"><i class="fa fa-whatsapp"></i></a>
+                            <a target="_blank" href="https://github.com/JawerDev"><i class="fa fa-github"></i></a>
+                        </div>
+    
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos</p>
+                    <h2>Soy <span>Jhon Cuero</span>, Desarrollador Web Jr</h2>
+                    <p class="descripcion">MIS PROYECTOS</p>
+                    <a href="#portfolio">Ir a Portafolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION P R O Y E C T O S -->
+        <section id="proyectos">
+            <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <span class="icono"> <i class="fa fa-code"></i></span>
+                    <h4>Desarrollo Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>HOME-MADE ARTS</li>
+                    </ul>
+                    <p>Desarrollo de una tienda online responsive con HTML, CSS, JS y Base de Datos</p>
+                    <a target="_blank" href="https://homemade-arts.netlify.app/inicio/">↗ Acceder al Sitio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">CONTACTAME AHORA</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+        <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a target="_blank" href="https://github.com/JawerDev"><i class="fa fa-github"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-whatsapp"></i></a>
+        </div>
+
+    </footer>
+
+</body>
+</html>
